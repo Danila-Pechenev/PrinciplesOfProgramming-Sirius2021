@@ -14,7 +14,6 @@ Task 2 of course "Principles of programming" of Sirius January School 2021
 ● pymorphy2   
 ● pymorphy2-dicts  
 ● DAWG-Python  
-● python-docx  
 Чтобы запустить программу необходимо вызвать функцию find_сontext и передать следующие параметры:  
 ● words - список слов, словоформы которых будут найдены (list)  
 ● path_to_file - путь до текстового файла (.txt) (str)  
