@@ -10,6 +10,8 @@ Task 2 of course "Principles of programming" of Sirius January School 2021
 ● возможность вывод морфологического анализа слов  
 ● возможность фильтрации слов по морфологическим признакам (например, пользователя интересуют только прилагательные, а другого пользователя только существительные именительного падежа)  
 ### Как использовать программу
+Предлагаем два варианта для того, чтобы протестировать программу:  
+1 способ. Запустить файл Main.py  
 Сначала необходимо установить библиотеки:  
 ● pymorphy2   
 ● pymorphy2-dicts  
@@ -21,4 +23,7 @@ Task 2 of course "Principles of programming" of Sirius January School 2021
 ● morphological_analysis=True - выводить морфологический анализ слов (bool)  
 ● filter_by_morphological_features=False - выводить слова, морфологические признаки которых содержат все из перечиселенных в списке признаков. Если нет необходимости, False (list or bool)  
 Доступные морфологические признаки можно посмотреть здесь:  
-https://pymorphy2.readthedocs.io/en/stable/user/grammemes.html#grammeme-docs
+https://pymorphy2.readthedocs.io/en/stable/user/grammemes.html#grammeme-docs  
+2 способ. Открыть файл Main.ipynb в среде Google Colab и запустить все ячейки, кроме тестов функции find_сontext (чтобы они сработали, необходимо подгрузить тестовые файлы и указать для них пути):  
+https://drive.google.com/file/d/1hxA61xkIRoRNfxg_DfzVsDMNvL1Fa2wi/view?usp=sharing  
+Чтобы протестировать программу на своих тестах необходимо вызвать функцию find_сontext и передать ей параметры, описанные в предыдущем пункте.  
