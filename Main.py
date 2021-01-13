@@ -118,7 +118,7 @@ def find_сontext_for_one_word(word: str,  # Список слов, словоф
 
 # Та же функция, но с чтением файла и возможностью поиска нескольких слов
 def find_сontext(words: list,  # Список слов, словоформы которых будут найдены (list)
-                 path_to_file,  # Путь до текстового файла (.txt) (str)
+                 path_to_file: str,  # Путь до текстового файла (.txt) (str)
                  statistics=True,  # Выводить статистику по количеству найденных слов и словоформ (bool)
                  morphological_analysis=True,  # Выводить морфологический анализ слов (bool)
                  filter_by_morphological_features=False  # Выводить слова, морфологические признаки которых содержат
