@@ -15,5 +15,6 @@ Task 2 of course "Principles of programming" of Sirius January School 2021
 ● path_to_file - путь до текстового файла (.txt) (str)  
 ● statistics=True - выводить статистику по количеству найденных слов и словоформ (bool)  
 ● morphological_analysis=True - выводить морфологический анализ слов (bool)  
-● filter_by_morphological_features=False - выводить слова, морфологические признаки которых содержат все из перечиселенных в списке признаков. Если нет необходимости, False (list or bool)
-
+● filter_by_morphological_features=False - выводить слова, морфологические признаки которых содержат все из перечиселенных в списке признаков. Если нет необходимости, False (list or bool)  
+Доступные морфологические признаки можно посмотреть здесь:  
+https://pymorphy2.readthedocs.io/en/stable/user/grammemes.html#grammeme-docs
